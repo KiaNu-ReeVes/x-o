@@ -1,0 +1,41 @@
+body {
+  background-attachment: fixed;
+  background: linear-gradient(
+    180deg,
+    rgba(62, 119, 134, 1) 0%,
+    rgba(0, 0, 0, 1) 100%
+  );
+}
+.basegame {
+  width: 450px;
+  height: 450px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.basegame .row {
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.gamebutton {
+  color: black;
+  background-color: #cecece;
+  width: 150px;
+  height: 150px;
+  border-radius: 30px;
+  border: 5px solid #252525;
+  cursor: pointer;
+  transition: background-color ease 0.5s;
+  text-align: center;
+}
+.gamebutton:hover {
+  background-color: #252525;
+  border: 5px solid #cecece;
+  color: white;
+}
+
+.gamebutton span {
+  line-height: 1.2;
+  font-size: 80pt;
+}
